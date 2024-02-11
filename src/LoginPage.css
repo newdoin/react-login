@@ -1,0 +1,104 @@
+body {
+  background-image: url("./assets/meta_bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* 파란색 레이어의 너비를 100%로 조절 */
+  height: 100%; /* 파란색 레이어의 높이를 100%로 조절 */
+  background-color: rgba(0, 16, 89, 0.85); /* 파란색을 추가하려면 여기의 RGBA 값을 조절하세요 */
+  z-index: -1;
+}
+
+.login-container {
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.logo-section img {
+  max-width: 400px; /* 로고 크기 조정 */
+}
+
+.form-container {
+  margin: 20px 0;
+}
+
+.input-with-icon {
+  display: flex; /* Flexbox를 사용하여 요소를 나란히 정렬합니다. */
+  align-items: center; /* 아이콘과 input을 수직 가운데 정렬합니다. */
+  justify-content: center;
+}
+
+.icon {
+  padding: 8.5px;
+  border-bottom: 1px solid white;
+}
+.form-container input {
+  display: block;
+  margin: 10px 0px;
+  padding: 10px;
+  width: 80%; /* 입력 필드 너비 */
+  max-width: 300px; /* 최대 너비 설정 */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+}
+
+/* 입력창에 텍스트를 입력할 때의 색상 변경 */
+.form-container input::placeholder {
+  color: white; /* 플레이스홀더 텍스트 색상을 흰색으로 설정합니다. */
+}
+
+.form-container button {
+  background-color: white; /* 배경 색상 */
+  color: #4481fb; /* 글자 색상 */
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  width: 80px; /* 버튼의 너비 */
+  height: 80px; /* 버튼의 높이 - 원형을 만들기 위해 너비와 동일하게 설정 */
+  line-height: 60px; /* 텍스트를 버튼 중앙에 위치시킵니다 (패딩을 고려하여 조정) */
+  border-radius: 50%; /* 원형으로 만듭니다 */
+  display: block;
+  margin: 20px auto; /* 수평 중앙 정렬 */
+  font-size: 14px; /* 글자 크기 */
+  font-weight: bold; /* 글자 굵기 */
+
+  /* 추가 스타일링이 필요하면 여기에 작성하세요 */
+}
+
+.find {
+  margin-top: 40px;
+  color: lightgray;
+  font-size: 12px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  /* background: rgba(0, 0, 0, 0.5); 배경색 투명도 조정 */
+  color: white;
+}
+
+.footer p {
+  font-size: 12px;
+  margin: 0px 0px;
+  padding-right: 20px;
+}
+
+.copyright {
+  text-align: right;
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f28a20f.css",
+    "main.js": "/static/js/main.c9142e6c.js",
+    "static/js/592.45fa1e2a.chunk.js": "/static/js/592.45fa1e2a.chunk.js",
+    "static/media/meta_bg.jpeg": "/static/media/meta_bg.110e55ce96944dfceddd.jpeg",
+    "static/media/metauniv_logo.png": "/static/media/metauniv_logo.97997b1f30bb36048fae.png",
+    "index.html": "/index.html",
+    "main.7f28a20f.css.map": "/static/css/main.7f28a20f.css.map",
+    "main.c9142e6c.js.map": "/static/js/main.c9142e6c.js.map",
+    "592.45fa1e2a.chunk.js.map": "/static/js/592.45fa1e2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f28a20f.css",
+    "static/js/main.c9142e6c.js"
+  ]
+}
